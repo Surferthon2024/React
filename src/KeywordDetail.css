@@ -1,0 +1,78 @@
+.keyword-detail-container {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .keyword-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 카드 사이의 간격 증가 */
+  }
+  
+  .keyword-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px; /* 패딩 증가 */
+    width: calc(50% - 20px); /* 카드가 한 줄에 두 개 나올 수 있도록 조정 */
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .notification-icon {
+    font-size: 24px; /* 아이콘 크기 증가 */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .site-name {
+    font-size: 14px; /* 사이트 이름 폰트 크기 증가 */
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .keyword-content {
+    font-size: 18px; /* 키워드 내용 폰트 크기 증가 */
+    font-weight: bold;
+    margin-top: 10px; /* 상단 마진 증가 */
+    color: #000;
+  }
+  
+  .post-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .post-title {
+    font-size: 20px;
+    margin-right: 20px; /* 제목과 버튼 사이의 간격 증가 */
+  }
+  
+  .recommend-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .recommend-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,89 @@
+.keyword-alert-container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header h1 {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 18px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.board-select,
+.search-scope-select,
+.keyword-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-button {
+  padding: 8px 16px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.keyword-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.keyword-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button,
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.edit-button {
+  color: #007bff;
+}
+
+.delete-button {
+  color: #ff4d4f;
+}
+
+.content {
+    padding: 16px; /* 콘텐츠에 여백 추가 */
+    margin-top: 56px; /* 네비게이션 바의 높이만큼 여백 추가 */
+    overflow-y: auto; /* 스크롤 가능하도록 설정 */
+  }
